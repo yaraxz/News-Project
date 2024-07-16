@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.demo.HelloServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>yyyy</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.demo.AServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginAppServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.app.UserLoginAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetALLBarListAppServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.app.GetALLBarListAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBarByBaridAppServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.app.GetBarByBaridAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllNewsListAppServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.app.GetAllNewsListAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNewsByNewsIdAppServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.app.GetNewsByNewsIdAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadPicServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.action.UploadPicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PicUploadServiceImpl</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.dao.impl.PicUploadServiceImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNewsByBarAppServlet</servlet-name>
+    <servlet-class>czimt.edu.cn.dlv.servlet.app.GetNewsByBarAppServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/servlet/HelloServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yyyy</servlet-name>
+    <url-pattern>/a/b/c/d/e/f/qqq</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLoginAppServlet</servlet-name>
+    <url-pattern>/servlet/UserLoginAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetALLBarListAppServlet</servlet-name>
+    <url-pattern>/servlet/GetALLBarListAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBarByBaridAppServlet</servlet-name>
+    <url-pattern>/servlet/GetBarByBaridAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllNewsListAppServlet</servlet-name>
+    <url-pattern>/servlet/GetAllNewsListAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewsByNewsIdAppServlet</servlet-name>
+    <url-pattern>/servlet/GetNewsByNewsIdAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadPicServlet</servlet-name>
+    <url-pattern>/servlet/UploadPicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewsByBarAppServlet</servlet-name>
+    <url-pattern>/servlet/GetNewsByBarAppServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
